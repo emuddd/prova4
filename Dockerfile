@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:latest@sha256:74a382917f6eaa7cc2d000dc2cd412a7f823f343b3b6268b20d84d057bc56718
 MAINTAINER bhaavanmerchant@gmail.com
 
 RUN apt-get -y update && apt-get install -y openjdk-7-jre-headless
